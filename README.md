@@ -26,8 +26,20 @@
 # How to's
 
 ## Install
+
+### pip install
 ```python
 pip install dark-validator
+```
+
+### python file only
+```
+https://github.com/adavila0703/darth-validator/releases/tag/1.01
+```
+
+### executable only
+```
+https://github.com/adavila0703/darth-validator/releases/tag/1.0
 ```
 ## Use
 
@@ -35,6 +47,14 @@ pip install dark-validator
 from validator import validator
 
 validator.validator('/path/1', '/path/2')
+```
+
+Command for using file based versions
+```python
+python validator.py example1.xlsx example2.xlsx
+```
+```python
+darth-validator.exe example1.xlsx example2.xlsx
 ```
 
 ## Output
